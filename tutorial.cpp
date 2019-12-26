@@ -1,4 +1,5 @@
 #include <iostream>
+#include "library/mylibrary.hpp"
 
 using namespace std;
 
@@ -16,7 +17,7 @@ int main(){
 
     i++;
     addi(i);
-    cout << "Hello world!" << i << endl;
+    cout << "Hello world!" << i << addition(3,5) << endl;
 
     function();
     return 0;

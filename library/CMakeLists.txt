@@ -1,0 +1,1 @@
+add_library(myLibrary lib1.cpp)
